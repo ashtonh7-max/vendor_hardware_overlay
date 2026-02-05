@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string-array name="config_carriers_force_single_sim">
+        <item>openla</item>
+    </string-array>
+    <string-array name="config_customFirstBootspeedList">
+        <item>com.android.systemui</item>
+    </string-array>
+    <string-array name="config_customInstallspeedList">
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.youtube.music</item>
+    </string-array>
+    <string-array name="config_motoDeviceProvisioningPackages">
+        <item>com.motorola.paks</item>
+        <item>com.motorola.paks.notification</item>
+        <item>com.motorola.ccc.ota</item>
+    </string-array>
+    <string-array name="config_network_type_tcp_buffers">
+        <item>GPRS:4092,8760,48000,4096,8760,48000</item>
+        <item>EDGE:4093,26280,70800,4096,16384,70800</item>
+        <item>UMTS:58254,349525,1048576,58254,349525,1048576</item>
+        <item>CDMA:4094,87380,262144,4096,16384,262144</item>
+        <item>1xRTT:16384,32768,131072,4096,16384,102400</item>
+        <item>EvDo_0:4094,87380,262144,4096,16384,262144</item>
+        <item>EvDo_A:4094,87380,262144,4096,16384,262144</item>
+        <item>HSDPA:61167,367002,1101005,8738,52429,262114</item>
+        <item>HSUPA:40778,244668,734003,16777,100663,301990</item>
+        <item>HSPA:40778,244668,734003,16777,100663,301990</item>
+        <item>EvDo_B:4094,87380,262144,4096,16384,262144</item>
+        <item>eHRPD:131072,262144,1048576,4096,16384,524288</item>
+        <item>iDEN:4094,87380,262144,4096,16384,262144</item>
+        <item>LTE:2097152,4194304,8388608,262144,524288,2097152</item>
+        <item>HSPA+:122334,734003,2202010,32040,192239,576717</item>
+        <item>GSM:4092,8760,48000,4096,8760,48000</item>
+        <item>TD_SCDMA:58254,349525,1048576,58254,349525,1048576</item>
+        <item>LTE_CA:4096,6291456,12582912,4096,1048576,2097152</item>
+        <item>NR_NSA:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_NSA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_SA:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_SA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
+    </string-array>
+    <string-array name="config_ntpServers">
+        <item>ntp://time.android.com</item>
+        <item>ntp://pool.ntp.org</item>
+    </string-array>
+    <string-array name="config_quickLaunchDefaultApps">
+        <item>com.google.android.dialer</item>
+        <item>com.google.android.apps.messaging</item>
+    </string-array>
+    <string-array name="config_telephonyEuiccDeviceCapabilities">
+        <item>gsm,11</item>
+        <item>utran,9</item>
+        <item>eutran,15</item>
+    </string-array>
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>bt-pan</item>
+        <item>bt-dun</item>
+    </string-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis\\d</item>
+    </string-array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>ap\\d</item>
+    </string-array>
+    <string-array name="default_theme_colors">
+        <item>darkestspruce,#00857E,false</item>
+    </string-array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>ethernet,9,9,9,-1,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,-1,-1,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+        <item>mobile_mcx,1001,0,3,60000,true</item>
+        <item>mobile_xcap,1002,0,3,60000,true</item>
+        <item>mobile_rcs,2001,0,3,60000,true</item>
+        <item>mobile_bip,2002,0,3,60000,true</item>
+        <item>mobile_vsim,2003,0,-1,60000,true</item>
+    </string-array>
+    <integer-array name="non_removable_euicc_slots">
+        <item>1</item>
+    </integer-array>
+    <string-array name="zz_moto_config_abnormal_job_service_name">
+        <item>com.whatsapp/androidx.work.impl.background.systemjob.SystemJobService</item>
+    <bool name="config_allow_ussd_over_ims">true</bool>
+    <bool name="config_anr_only_dump_self">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_bg_current_drain_auto_restrict_abusive_apps">true</bool>
+    <bool name="config_bg_current_drain_high_threshold_by_bg_location">true</bool>
+    <bool name="config_bg_prompt_abusive_apps_to_bg_restricted">true</bool>
+    <bool name="config_bg_prompt_fgs_with_noti_to_bg_restricted">true</bool>
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_vt_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
+    <bool name="config_double_tap_to_wake_supported">true</bool>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    <bool name="config_enableMultiUserUI">true</bool>
+    <bool name="config_enabled_frp_violation_suicide">true</bool>
+    <bool name="config_gesture_stow_mode_supported">true</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_isScreenOffTimeOptimized">true</bool>
+    <bool name="config_moto_wifi_go_intent_max">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+    <bool name="config_quick_capture_automatic_camera">true</bool>
+    <bool name="config_refresh_rate_auto_lite_supported">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_smart_battery_available">true</bool>
+    <bool name="config_sms_ask_every_time_support">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_zramWriteback">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="zz_moto_config_remove_task_if_process_restart">true</bool>
+    <dimen name="config_dialogCornerRadius">24.0dip</dimen>
+    <item type="dimen" name="config_wallpaperMaxScale">1.0</item>
+    <dimen name="status_bar_height">35.0dip</dimen>
+    <dimen name="status_bar_height_landscape">28.0dip</dimen>
+    <dimen name="status_bar_height_portrait">35.0dip</dimen>
+    <dimen name="status_bar_padding_top_portrait">0.0px</dimen>
+    <integer name="config_activeTaskDurationHours">24</integer>
+    <integer name="config_bg_current_drain_exempted_types">25</integer>
+    <integer name="config_bg_current_drain_types_to_restricted_bucket">28</integer>
+    <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
+    <integer name="config_doublePressOnPowerBehavior">3</integer>
+    <integer name="config_extraFreeKbytesAdjust">50000</integer>
+    <integer name="config_minimumScreenOffTimeout">8000</integer>
+    <integer name="config_multiuserMaximumUsers">4</integer>
+    <integer name="config_pinnerHomePinBytes">0</integer>
+    <integer name="config_pinnerWebviewPinBytes">0</integer>
+    <integer name="config_print_cpu_info_delay">-1</integer>
+    <integer name="config_safe_media_volume_usb_mB">-1900</integer>
+    <integer name="config_screenBrightnessDoze">17</integer>
+    <integer name="device_idle_idle_pending_to_ms">60000</integer>
+    <integer name="device_idle_idle_to_ms">3600000</integer>
+    <integer name="device_idle_light_after_inactive_to_ms">60000</integer>
+    <integer name="device_idle_light_idle_to_ms">300000</integer>
+    <integer name="device_idle_light_max_idle_to_ms">900000</integer>
+    <integer name="device_idle_max_idle_pending_to_ms">60000</integer>
+    <integer name="device_idle_min_time_to_alarm_ms">600000</integer>
+    <string name="config_clockFontFamily">moto_time</string>
+    <string name="config_deviceSpecificDevicePolicyManagerService">com.android.server.devicepolicy.MotoEnterpriseDevicePolicyServiceExtension</string>
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="config_mainBuiltInDisplayCutout">M -30,0 L 30,0 L 30,70 L -30,70 Z</string>
+    <string name="config_mms_user_agent">motog2025</string>
+    <string name="config_mms_user_agent_profile_url">http://uaprof.motorola.com/phoneconfig/motov1/Profile/motov1.rdf</string>
+    <string name="config_oemCredentialManagerDialogComponent">com.android.config oem CredentialManager Dialog Component</string>
+    <string name="config_qualified_networks_service_package">com.android.phone</string>
+    <string name="config_systemFinancedDeviceController">com.motorola.paks</string>
+    <string name="config_wallpaperCropperPackage">com.android.wallpaperpicker</string>
+    <string name="config_wifi_tcp_buffers">1730560,3461120,6922240,524288,1048576,4525824</string>
+    <string name="config_wlan_data_service_class">com.mediatek.internal.telephony.data.IwlanDataService</string>
+    <string name="config_wlan_data_service_package">com.android.phone</string>
+    <string name="config_wlan_network_service_class">com.mediatek.internal.telephony.IWlanNetworkService</string>
+    <string name="config_wlan_network_service_package">com.android.phone</string>
+    <string name="zz_moto_config_displayProximitySensorType">com.motorola.sensor.prox_for_call</string>
+</resources>
