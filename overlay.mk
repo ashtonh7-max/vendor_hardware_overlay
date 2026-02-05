@@ -85,7 +85,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-e5plus \
 	treble-overlay-moto-e6plus \
 	treble-overlay-moto-g31 \
-	treble-overlay-moto-kansas \
 	treble-overlay-moto-g6 \
 	treble-overlay-moto-g6play \
 	treble-overlay-moto-g6plus \
@@ -97,6 +96,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-gpure \
 	treble-overlay-moto-hiphi \
 	treble-overlay-moto-hiphi-systemui \
+	treble-overlay-moto-kansas \
 	treble-overlay-moto-nio \
 	treble-overlay-moto-one \
 	treble-overlay-moto-one-action \
